@@ -11,7 +11,7 @@ void setup()
 }
 void draw()
 {
-  stroke(Math.ranodm(0,250),Math.ranodm(0,250),Math.ranodm(0,250));
+  stroke((int)(Math.random()*251),(int)(Math.random()*251),(int)(Math.random()*251));
   while (endX < 301) {
 	endX = startX + (int)(Math.random()*10); 
 	endY = startY + ((int)(Math.random()*20)-9);
