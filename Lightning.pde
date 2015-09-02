@@ -53,7 +53,7 @@ void mousePressed()
   			fill(0,51,0);
   			ellipse(i,240,20,20);
 
-		System.out.println("var: "+ i);
+		
 
 	
 	}
